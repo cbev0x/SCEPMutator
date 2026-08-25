@@ -4,7 +4,7 @@ A scriptable SCEP message forge and cross-implementation differential harness.
 
 SCEPMutator builds SCEP messages from the PKCS#10 up through the CMS `EnvelopedData` and `SignedData` with the SCEP authenticated attributes, giving full control over every layer a normal client hides. It is meant for testing SCEP server implementations against each other: mismatched signer keys, broken proof-of-possession, hand-crafted PKCS#1 v1.5 padding, malformed ASN.1, and so on. It auto-adapts transport (POST vs GET+base64) and algorithms from each server's advertised `GetCACaps`.
 
-It was written for the research in [Five SCEP Servers, One Harness](https://cbev0x.github.io), a differential characterization across NDES, EJBCA, Dogtag, OpenXPKI, and micromdm/scep.
+It was written for the research in [Five SCEP Servers, One Harness](https://cbev0x.github.io/personal/research/2026/08/24/SCEP_Diff_Research.html), a differential characterization across NDES, EJBCA, Dogtag, OpenXPKI, and micromdm/scep.
 
 ## Install
 
