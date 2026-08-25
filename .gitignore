@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+# lab artifacts / secrets — never commit
+cred-*.pem
+cred-*.key
+issued-*.pem
+issued-*.key
+nopop-*.pem
+selftrust-*.der
+fuzz-*.json
+targets.json
+*.key
